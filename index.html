@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>KARIM JERBI</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="logo.png">
+</head>
+<body id="top">
+    <div class="overlay-navigation">
+  <nav role="navigation">
+    <ul>
+      <li><a href="#top" data-content="The beginning">Home</a></li>
+      <li><a href="#about" data-content="Curious?">About</a></li>
+      <li><a href="#work" data-content="Only the finest">Works</a></li>
+    </ul>
+  </nav>
+</div>
+
+<section class="home">
+  <a class="josefin-sans" href="index.html">MOHAMED KARIM JERBI</a>
+  <div class="open-overlay">
+    <span class="bar-top"></span>
+    <span class="bar-middle"></span>
+    <span class="bar-bottom"></span>
+  </div>
+  <div class="motto">
+    <pre>
+SHAPING
+    THE FUTURE ...
+    </pre>
+</div>
+</section>
+<section class="about" id="about">
+    <div class="dot"></div>
+    <div class="contain">
+        <img class="self" src='img/pic.jpg'/>
+        <div class="textbox">
+        <h2>JERBI MOHAMED KARIM</h2>
+        <h3>ARCHITECT</h3>
+        <a href="tomail:k4rim.jerbi@gmail.com"><div style="display:flex;"><img style="width: 50px;height: 50px;padding:10px;" src="img/mail.png"/><h3>K4RIM.JERBI@GMAIL.COM</h3></div></a>
+        <a href="https:\\www.github.com/apolius"><div style="display:flex;"><img style="width: 50px;height: 50px;padding:10px;" src="img/github.png"/><h3>@apolius</h3></div></a>
+        <a href="https:\\www.instagram.com\k4rim.jerbi"><div style="display:flex;"><img style="width: 50px;height: 50px;padding:10px;" src="img/insta.png"/><h3>Karim Jerbi</h3></div></a>
+
+    </div>
+    </div>
+</section>
+<section class="works" id="work">
+<input type="radio" name="scene" id="scene-1" value="1" checked />
+<input type="radio" name="scene" id="scene-2" value="2" />
+<input type="radio" name="scene" id="scene-3" value="3" />
+<input type="radio" name="scene" id="scene-4" value="4" />
+
+<main id="site">
+  <div class="ocean">
+    <div class="ocean-text">SHAPING THE FUTURE</div>
+  </div>
+  <div class="left-side">    
+    <div class="page-numbers" data-total="04">
+      <div class="page-number -tens">0</div>
+      <div class="page-number -ones">
+        1<br/>2<br/>3<br/>4
+      </div>
+    </div>
+  </div>
+  <div class="hero">
+    <div class="layer" data-scene="1">      
+      <h1 class="heading">
+        BUILDING THE<br />
+        <i>NEXT</i><br />
+        BIG THING
+      </h1>
+      <a href='gal.html'><button class="button">
+        EXPLORE
+      </button></a>
+    </div>
+    <div class="layer" data-scene="2">      
+      <h1 class="heading">
+        THINKING ECOLOGICALLY<br />
+        WE SAVE THE<br />
+        FUTURE
+      </h1>
+      <a href='gal.html'><button class="button">
+        EXPLORE
+      </button></a>
+    </div>
+    <div class="layer" data-scene="3">      
+      <h1 class="heading">
+        ADVANCING<br />
+        YOUR<br />
+        COMPANY'S NEEDS
+      </h1>      <a href='gal.html'><button class="button">
+        EXPLORE
+      </button></a>
+    </div>
+    <div class="layer" data-scene="4">      
+      <h1 class="heading">
+        Advanced TECHNOLOGICAL<br />
+        INNOVATION<br />
+      </h1>      <a href='gal.html'><button class="button">
+        EXPLORE
+      </button></a>
+    </div>
+  </div>
+
+  <div class="left-content">
+    <div class="layer" data-scene="1">      
+      <div class="fact subtitle">More than</div>
+      <div class="fact number">50</div>
+      <div class="fact description">successful commercial projects.</div>
+    </div>
+    <div class="layer" data-scene="2">      
+      <div class="fact subtitle">Designed and delivered , promoting eco-friendly practices.</div>
+      <div class="fact number">10 LEED-certified sustainable buildings</div>
+    </div>
+    <div class="layer" data-scene="3">      
+      <div class="fact subtitle">“Their ability to blend aesthetics and functionality is unparalleled.”</div>
+      <div class="fact number"> “Our new office space not only looks stunning but also enhances productivity.”</div>
+      <div class="fact description"> — CEO, XYZ Corporation</div>
+    </div>
+    <div class="layer" data-scene="4">      
+      <div class="fact subtitle">Client-Centric Approach:</div>
+      <div class="fact number">Your vision is our compass. We listen intently, collaborate closely, and tailor solutions to your unique requirements. </div>
+      <div class="fact description">Your success is our success.</div>
+    </div>
+  </div>
+  <div class="right-content">
+
+    <nav class="slide-nav">
+      <div class="nav-button -prev">
+        &lt;
+      
+        <label class="nav-toggle" onclick="$('.ocean').css('background-image', 'url(' + 'img/p4.png' + ')')"  for="scene-1">1</label>
+        <label class="nav-toggle" onclick="$('.ocean').css('background-image', 'url(' + 'img/p1.png' + ')')" for="scene-2">2</label>
+        <label class="nav-toggle" onclick="$('.ocean').css('background-image', 'url(' + 'img/p2.png' + ')')" for="scene-3">3</label>
+        <label class="nav-toggle" onclick="$('.ocean').css('background-image', 'url(' + 'img/p3.png' + ')')" for="scene-4">4</label>
+       
+      </div>
+      <div class="nav-button -next">
+        Next &gt;
+      
+        <label class="nav-toggle"  onclick="$('.ocean').css('background-image', 'url(' + 'img/p2.png' + ')')" for="scene-1">1</label>
+        <label class="nav-toggle" onclick="$('.ocean').css('background-image', 'url(' + 'img/p3.png' + ')')" for="scene-2">2</label>
+        <label class="nav-toggle" onclick="$('.ocean').css('background-image', 'url(' + 'img/p4.png' + ')')" for="scene-3">3</label>
+        <label class="nav-toggle" onclick="$('.ocean').css('background-image', 'url(' + 'img/p1.png' + ')')" for="scene-4">4</label>
+      </div>
+    </nav>
+
+    <div class="layer" data-scene="1">      
+      <h2 class="heading">
+        Unlock Your Vision with Our Expertise: Transforming Spaces, One Project at a Time
+      </h2>
+      <p class="paragraph">
+        Are you seeking an architectural partner who combines creativity, precision, and a proven track record? Look no further! Our firm has 50+ successful commercial projects under our belt, spanning a diverse range from office buildings to retail spaces.
+      </p>
+    </div>
+
+    <div class="layer" data-scene="2">
+      <h2 class="heading">
+        Sustainable Solutions
+      </h2>
+      <p class="paragraph">
+        We believe in responsible architecture. Our designs integrate eco-friendly practices, minimizing environmental impact while maximizing efficiency.
+      </p>
+    </div>
+    
+    <div class="layer" data-scene="3">      
+      <h2 class="heading">
+Proven Results: 
+      </h2>
+      <p class="paragraph">
+        Our portfolio speaks volumes. From sleek corporate headquarters to inviting retail environments, our designs resonate with users and elevate brands.
+      </p>
+    </div>
+    
+    <div class="layer" data-scene="4">      
+      <h2 class="heading">
+        Ready to Elevate Your Space?
+      </h2>
+      <p class="paragraph">
+        Let’s embark on a journey together. Whether it’s a groundbreaking office tower or a boutique retail outlet, we’re here to turn your vision into reality.
+        Contact us today to discuss your architectural needs and let’s create something extraordinary!
+    </p>
+    </div>
+  </div>
+</main>
+</section>
+</body>
+<script src="script.js"></script>
+</html>
