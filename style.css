@@ -395,13 +395,19 @@ Animation keyframes
     background: #808080;
     background-size: cover;
     background-position: center center;
+    display: flex;
 }
 .about .contain{
     border: solid 5px rgb(56, 56, 56);
     margin: 50px;
-    transform: translate(0%, 50%);
     padding:20px;
     display: flex;
+    padding-top: 25vh;
+    width: calc(100% - 25vw);
+}
+.about .contain img{
+  width:25vh;
+  height: 25vh;
 }
 .self{
     filter: grayscale(1);

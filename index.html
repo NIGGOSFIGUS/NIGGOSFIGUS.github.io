@@ -35,6 +35,15 @@ SHAPING
 </section>
 <section class="about" id="about">
     <div class="dot"></div>
+    <script>
+    function playPause (video) {
+      if (video.paused) 
+        video.play(); 
+      else 
+        video.pause();
+    }
+    </script>
+    <video src="v.webm" onclick="playPause(this);"><meta itemprop="name" content="click to play/pause"></p></video>
     <div class="contain">
         <img class="self" src='img/pic.jpg'/>
         <div class="textbox">
